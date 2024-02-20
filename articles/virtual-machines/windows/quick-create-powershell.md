@@ -42,7 +42,7 @@ When prompted, provide a username and password to be used as the sign-in credent
 New-AzVm `
     -ResourceGroupName 'myResourceGroup' `
     -Name 'myVM' `
-    -Location 'East US' `
+    -Location 'EastUS' `
     -Image 'MicrosoftWindowsServer:WindowsServer:2022-datacenter-azure-edition:latest' `
     -VirtualNetworkName 'myVnet' `
     -SubnetName 'mySubnet' `
